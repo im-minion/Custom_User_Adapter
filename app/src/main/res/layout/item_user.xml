@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName"
+        android:layout_toRightOf="@+id/ivUserIcon"
+        android:layout_alignBaseline="@+id/ivUserIcon"
+        android:paddingLeft="10dp"
+        android:paddingRight="6dp"
+        android:text="Shunya"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvName"
+        android:id="@+id/textView2"
+        android:layout_toRightOf="@+id/tvName"
+        android:paddingRight="6dp"
+        android:text="from"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHomeTown"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="SAN MACro"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/user_icon"
+        android:id="@+id/ivUserIcon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+
+
+</RelativeLayout>
